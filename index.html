@@ -15,8 +15,8 @@
 
             // Initialize the SDK
             const { module } = await window.CCEverywhere.initialize({ 
-                clientId: 'YOUR_CLIENT_ID', 
-                appName: 'YOUR_APP_NAME'
+                clientId: '4777a5a4dec4436bbfc0d8f9235d2866', 
+                appName: 'express'
             });
 
             // Document and app configuration
@@ -34,4 +34,8 @@
             };
 
             // Example method call to create editor
-            module.editor.creat
+            module.editor.create(docConfig, appConfig);
+        })();
+    </script>
+</body>
+</html>
